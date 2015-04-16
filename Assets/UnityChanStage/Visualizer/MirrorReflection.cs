@@ -199,7 +199,7 @@ public class MirrorReflection : MonoBehaviour
 			reflectionCamera.enabled = false;
 			reflectionCamera.transform.position = transform.position;
 			reflectionCamera.transform.rotation = transform.rotation;
-			reflectionCamera.gameObject.AddComponent<FlareLayer>();
+//			reflectionCamera.gameObject.AddComponent<FlareLayer>();
 			go.hideFlags = HideFlags.HideAndDontSave;
 			m_ReflectionCameras[currentCamera] = reflectionCamera;
 		}
